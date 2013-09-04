@@ -1,0 +1,22 @@
+/**
+ * Template Name: 2013
+ */
+.center {
+  padding: 0;
+  margin: 0 auto;
+  min-width: 300px;
+  width: 90%;
+}
+@media screen and (min-width: 760px) {
+  .col {
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+  }
+  .col.wide {
+    width: 65%;
+  }
+  .col.end {
+    margin-right: 0;
+  }
+}

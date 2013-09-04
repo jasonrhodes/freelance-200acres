@@ -1,0 +1,22 @@
+.center {
+    padding: 0;
+    margin: 0 auto;
+    min-width: 300px;
+    width: @center-width;
+}
+
+@media screen and (min-width: @breakA) {
+	.col {
+		float: left;
+		width: 30%;
+		margin-right: 5%;
+
+		&.wide {
+			width: 65%;
+		}
+
+		&.end {
+			margin-right: 0;
+		}
+	}
+}
