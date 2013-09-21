@@ -2,3 +2,4 @@
 
 vendor
 *.psd
+public/assets/uploads/*
